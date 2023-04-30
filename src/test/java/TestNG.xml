@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="10" configfailurepolicy="skip">
+    <listeners>
+        <listener class-name="runners.NGTestListener" />
+    </listeners>
+    <test name="Complete test run with Chrome">
+        <parameter name="testBrowser" value="Chrome" />
+        <classes>
+            <class name="runners.UserRegistrationRunner" />
+            <class name="runners.BuyProductRunner" />
+            <class name="runners.SearchProductRunner"/>
+            <class name="runners.ApiUserRunner"/>
+        </classes>
+    </test>
+</suite>
