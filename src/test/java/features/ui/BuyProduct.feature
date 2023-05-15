@@ -1,5 +1,6 @@
 Feature: Buy Product
 
+  @Test
   Scenario: TC_01 [Buy Product] Automate End to End Buy Order functionality
     Given I went to shop page
     When I add product to cart
@@ -13,6 +14,7 @@ Feature: Buy Product
     And I click to proceed order
     Then Validation result via screenshot
 
+  @Test
   Scenario: TC_02 [Buy Product] Verify that Total Price is reflecting correctly if user changes quantity on 'Shopping Cart Summary' Page
     Given I went to shop page
     When I add product to cart

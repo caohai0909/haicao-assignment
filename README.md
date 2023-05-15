@@ -28,3 +28,4 @@
    6.1 Execute "allure generate"
    6.1 Execute "allure open"
    ---> Report page will open
+   

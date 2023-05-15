@@ -1,6 +1,7 @@
 Feature: User Registration
 
 
+  @Test
    Scenario: TC_01 [User Registration] Automate User Registration Process
     Given I went to user registration page
     When I enter all information in Volunteer Sign Up section
@@ -9,11 +10,13 @@ Feature: User Registration
     And I click to Submit button
     Then Validate that user is created or failed to create
 
+  @Test
   Scenario: TC_02 [User Registration] Verify invalid email address error
     Given I went to user registration page
     When I enter invalid to email address and click enter
     Then Validation that invalid email error message is displayed
 
+  @Test
   Scenario: TC_03 [User Registration] Verify Drag and Drop ability on website
     Given I went to user registration page
     When I do drag and drop for demonstrate

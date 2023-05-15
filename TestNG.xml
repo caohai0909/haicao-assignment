@@ -13,4 +13,13 @@
             <class name="runners.ApiUserRunner"/>
         </classes>
     </test>
+<!--    <test name="Complete test run with Firefox">-->
+<!--        <parameter name="testBrowser" value="Firefox" />-->
+<!--        <classes>-->
+<!--            <class name="runners.UserRegistrationRunner" />-->
+<!--            <class name="runners.BuyProductRunner" />-->
+<!--            <class name="runners.SearchProductRunner"/>-->
+<!--            <class name="runners.ApiUserRunner"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>
