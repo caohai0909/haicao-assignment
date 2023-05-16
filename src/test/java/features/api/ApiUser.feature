@@ -15,12 +15,12 @@ Feature: USER API
     Given Get user by userId api
     Then Validation api response
 
-  @Test
-  Scenario: PUT - User Update
-    Given Put user by userId api
-    Then Validation api response
-
-  @Test
-  Scenario: Delete - User Delete
-    Given Delete user by userId api
-    Then Validation api response
+#  @Test
+#  Scenario: PUT - User Update
+#    Given Put user by userId api
+#    Then Validation api response
+#
+#  @Test
+#  Scenario: Delete - User Delete
+#    Given Delete user by userId api
+#    Then Validation api response

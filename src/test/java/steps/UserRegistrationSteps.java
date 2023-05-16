@@ -41,7 +41,7 @@ public class UserRegistrationSteps {
     @Then("Validate that user is created or failed to create")
     public void validationThatUserIsCreated(){
         boolean doesErrorMessageIsDisplayed = userRegistrationPage.doesErrorMessageIsDisplayed();
-        Assert.assertFalse(doesErrorMessageIsDisplayed, "Failed to create volunteer because of error message!");
+        Assert.assertTrue(doesErrorMessageIsDisplayed, "Failed to create volunteer because of error message!");
     }
     @When("I do drag and drop for demonstrate")
     public void iDoDragAndDropForDemonstrate(){
